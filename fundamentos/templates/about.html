@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% extends "layout.html" %}
+{% block title %}
+    About
+{% endblock title %}
+{% block content %}
     <h2>About</h2>
     <ul>
         {% for fruta in frutas %}
@@ -14,5 +11,4 @@
     </ul>
     <hr>
     <p>Acesse a página <a href="/">Home</a></p>
-</body>
-</html>
+{% endblock content %}
