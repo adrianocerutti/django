@@ -11,4 +11,5 @@ def products_list(request):
 
 
 def product_page(request, slug):
-    return HttpResponse(slug)
+    product = Product.objects.get(slug=slug)
+    return render(request, 'products/product_page.html', {'product': product})

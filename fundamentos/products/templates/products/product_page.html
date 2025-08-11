@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title %}
+    {{product.name}}
+{% endblock title %}
+{% block content %}
+    <section>
+        <h2>{{product.name}}</h2>
+        <p>R$ {{product.price}}</p>
+        <p>Estoque: {{product.stock}}</p>
+    </section>
+{% endblock content %}
