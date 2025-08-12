@@ -24,7 +24,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', homepage),
     path('about', about),
-    path('products/', include('products.urls'))
+    path('products/', include('products.urls')),
+    path('users/', include('users.urls')),
 ]
 
 urlpatterns += static(
