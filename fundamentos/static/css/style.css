@@ -64,3 +64,20 @@ a:hover {
   border-radius: 10px;
   width: 125px;
 }
+
+.logout {
+  display: inline-block;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #81dbb8;
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.logout-button:hover {
+  opacity: 0.85;
+}
