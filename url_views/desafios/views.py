@@ -4,4 +4,10 @@ from django.http import HttpResponse
 # Create your views here.
 
 def domingo(request):
-    return HttpResponse("Hello World!")
+    return HttpResponse("Ler Livro sobre Django")
+
+def segunda(request):
+    return HttpResponse("Assistir Série Breaking Bad")
+
+def terca(request):
+    return HttpResponse("Estudar sobre programação em Python")
